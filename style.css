@@ -48,6 +48,7 @@ main{
 }
 
 .work-process p{
+    text-indent: 2vw;
     width: 93vw;
     line-height: 5vh;
     font-weight: 450;
@@ -263,8 +264,11 @@ td{
     min-width: 4rem;
     width: 13vw;
     height: 10vh;
-    color: white;
-    background-color: #0E2430;
+    background-color: #0d648a;
     border: 1px solid white;
     word-wrap: normal;
+}
+
+tr:nth-child(even) td{
+    background-color: #105070;
 }
